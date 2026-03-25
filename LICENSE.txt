@@ -1,0 +1,34 @@
+Copyright © [2026] [Iwalyn]
+Todos los derechos reservados.
+
+Este software es propiedad de su autor y se proporciona exclusivamente para uso personal o evaluación. No se permite copiar, modificar, distribuir, sublicenciar, vender ni utilizar ninguna parte de este código o de sus archivos sin autorización expresa y por escrito del titular de los derechos.
+
+Está prohibida cualquier forma de reproducción total o parcial, transformación o explotación del contenido sin el consentimiento previo.
+
+Este repositorio no es software libre ni de código abierto. Queda totalmente prohibido:
+
+- Redistribuir este software o cualquier parte del mismo.
+- Usarlo con fines comerciales, directos o indirectos.
+- Publicarlo en otros sitios, foros o plataformas.
+- Incorporarlo a proyectos propios o de terceros.
+
+Para solicitar permisos o licencias específicas, por favor contacte con: [gonzalocapeldelat@gmail.com]
+
+
+---
+
+Copyright © [2026] [Iwalyn]
+All rights reserved.
+
+This software is the property of its author and is provided exclusively for personal use or evaluation. Copying, modifying, distributing, sublicensing, selling, or using any part of this code or its files without the express written permission of the copyright holder is strictly prohibited.
+
+Any form of total or partial reproduction, transformation, or exploitation of the content is forbidden without prior consent.
+
+This repository is not free or open-source software. The following are strictly prohibited:
+
+- Redistributing this software or any portion of it.
+- Using it for commercial purposes, direct or indirect.
+- Publishing it on other sites, forums, or platforms.
+- Incorporating it into personal or third-party projects.
+
+To request permission or a specific license, please contact: [gonzalocapeldelat@gmail.com]
