@@ -66,6 +66,7 @@ const lugares = L.layerGroup().addTo(map);
 const portales = L.layerGroup().addTo(map);
 const minas = L.layerGroup().addTo(map);
 const conflictos = L.layerGroup();
+const gremios = L.layerGroup().addTo(map);
 const otros = L.layerGroup().addTo(map);
 
 L.control.layers(
@@ -76,6 +77,7 @@ L.control.layers(
         Portales: portales,
         Minas: minas,
         Conflictos: conflictos,
+        Gremios: gremios,
         Otros: otros
     },
     { collapsed: false }
@@ -219,6 +221,7 @@ function getLayerByCategory(category) {
         case "portales": return portales;
         case "minas": return minas;
         case "conflictos": return conflictos;
+        case "gremios": return gremios;
         default: return otros;
     }
 }
@@ -230,6 +233,7 @@ function getCategoryEmoji(category) {
         case "portales": return "🌀";
         case "minas": return "💎";
         case "conflictos": return "⚔️";
+        case "gremios": return "🏅";
         default: return "•";
     }
 }
@@ -249,7 +253,7 @@ function createCategoryIcon(category) {
 }
 
 function clearMarkerLayers() {
-    [ciudades, lugares, portales, minas, conflictos, otros].forEach(layer => {
+    [ciudades, lugares, portales, minas, conflictos, gremios, otros].forEach(layer => {
         layer.clearLayers();
     });
 }
