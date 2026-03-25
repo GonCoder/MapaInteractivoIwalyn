@@ -1,0 +1,77 @@
+{
+  "mapa0": [
+    {
+      "categoria": "ciudades",
+      "nombre": "testAntiguo",
+      "y": 652.54,
+      "x": 660.94,
+      "descripcion": "Sin descripcion."
+    }
+  ],
+  "mapa1": [
+    {
+      "categoria": "ciudades",
+      "nombre": "test2",
+      "y": 622.25,
+      "x": 357.09,
+      "descripcion": "Sin descripción."
+    },
+    {
+      "categoria": "ciudades",
+      "nombre": "testcystom",
+      "y": 520.43,
+      "x": 295.57,
+      "descripcion": "Sin descripción."
+    },
+    {
+      "categoria": "ciudades",
+      "nombre": "test3",
+      "y": 541,
+      "x": 391,
+      "descripcion": "Sin descripción."
+    },
+    {
+      "categoria": "ciudades",
+      "nombre": "Marcador sin nombre",
+      "y": 610,
+      "x": 291,
+      "descripcion": "test4"
+    },
+    {
+      "categoria": "ciudades",
+      "nombre": "waf",
+      "y": 615.89,
+      "x": 535.99,
+      "descripcion": "Sin descripción."
+    },
+    {
+      "categoria": "ciudades",
+      "nombre": "este",
+      "y": 701.45,
+      "x": 402.34,
+      "descripcion": "Sin descripción."
+    },
+    {
+      "categoria": "conflictos",
+      "nombre": "Caso 1",
+      "y": 760.85,
+      "x": 483.66,
+      "descripcion": "Sin descripcion.",
+      "conflictId": "conflict-1774435486215-nvp04l",
+      "conflictCaseLabel": "Caso 1",
+      "conflictCaseOrder": 1
+    },
+    {
+      "categoria": "conflictos",
+      "nombre": "Caso 2",
+      "y": 713.47,
+      "x": 659.02,
+      "descripcion": "Sin descripcion.",
+      "conflictId": "conflict-1774435486215-nvp04l",
+      "conflictCaseLabel": "Caso 2",
+      "conflictCaseOrder": 2
+    }
+  ],
+  "mapa2": [],
+  "mapa3": []
+}

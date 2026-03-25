@@ -1,0 +1,93 @@
+﻿<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa de Iwalyn</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <div id="markerEditor" class="marker-editor">
+    <h3>Modo crear marcadores</h3>
+
+    <div class="current-map-box">
+      <strong>Mapa activo:</strong>
+      <span id="activeMapName">Mapa General</span>
+    </div>
+
+    <label for="markerCategory">Categoría</label>
+    <select id="markerCategory">
+      <option value="ciudades">Ciudad</option>
+      <option value="lugares">Lugar importante</option>
+      <option value="portales">Portal</option>
+      <option value="minas">Mina</option>
+      <option value="conflictos">Conflicto</option>
+      <option value="otros">Otro</option>
+    </select>
+
+    <div id="standardFields">
+      <label for="markerName">Nombre</label>
+      <input id="markerName" type="text" placeholder="Ej: Velaz" />
+
+      <label for="markerDesc">Descripción</label>
+      <textarea id="markerDesc" placeholder="Texto del popup..."></textarea>
+    </div>
+
+    <div id="conflictFields" class="conflict-fields">
+      <div class="conflict-case">
+        <h4>Caso 1</h4>
+        <label for="conflictCase1Name">Nombre de Caso 1</label>
+        <input id="conflictCase1Name" type="text" placeholder="Ej: Bando del Norte" />
+
+        <label for="conflictCase1Desc">Descripción de Caso 1</label>
+        <textarea id="conflictCase1Desc" placeholder="Detalles del Caso 1..."></textarea>
+      </div>
+
+      <div class="conflict-case">
+        <h4>Caso 2</h4>
+        <label for="conflictCase2Name">Nombre de Caso 2</label>
+        <input id="conflictCase2Name" type="text" placeholder="Ej: Bando del Sur" />
+
+        <label for="conflictCase2Desc">Descripción de Caso 2</label>
+        <textarea id="conflictCase2Desc" placeholder="Detalles del Caso 2..."></textarea>
+      </div>
+    </div>
+
+    <div id="markerCoords" class="coords"></div>
+
+    <div class="actions">
+      <button id="acceptMarkerBtn" class="btn-primary">Añadir al array</button>
+      <button id="cancelMarkerBtn" class="btn-secondary">Cancelar marcador</button>
+      <button id="undoLastBtn" class="btn-secondary">Deshacer último</button>
+      <button id="clearAllBtn" class="btn-danger">Vaciar mapa actual</button>
+      <button id="clearStorageBtn" class="btn-danger">Borrar guardado local</button>
+      <button id="reloadJsonBtn" class="btn-secondary">Recargar JSONs</button>
+      <button id="exportCustomBtn" class="btn-primary">Exportar MarcadoresCustom.json</button>
+    </div>
+
+    <div class="code-output">
+      <label for="generatedArray">Export del mapa activo</label>
+      <textarea id="generatedArray" readonly></textarea>
+
+      <div class="actions">
+        <button id="copyCodeBtn" class="btn-primary">Copiar todo</button>
+      </div>
+
+      <div id="copyStatus" class="copy-status"></div>
+      <div class="small-note">
+        La web intenta cargar automáticamente <strong>MarcadoresVanilla.json</strong> y
+        <strong>MarcadoresCustom.json</strong>. Si no existen todavía, la web sigue funcionando igual.
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

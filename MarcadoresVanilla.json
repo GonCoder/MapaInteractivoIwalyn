@@ -1,0 +1,20 @@
+{
+  "mapa1": [
+    {
+      "categoria": "ciudades",
+      "nombre": "gsseg",
+      "y": 657.04,
+      "x": 685.58,
+      "descripcion": "Sin descripción."
+    },
+    {
+      "categoria": "portales",
+      "nombre": "humanawa",
+      "y": 639.08,
+      "x": 491.08,
+      "descripcion": "awdaw"
+    }
+  ],
+  "mapa2": [],
+  "mapa3": []
+}
